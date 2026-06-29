@@ -2,24 +2,25 @@ class Solution {
     public void moveZeroes(int[] arr) {
         int n = arr.length;
         
-        int ans[] = new int[n];
-        int idx = 0;
+        int j = -1;
         
         for(int i = 0; i < n; i++){
-            if(arr[i] != 0){
-                ans[idx] = arr[i];
-                idx++;
+            if(arr[i] == 0){
+                j = i;
+                break;
             }
         }
         
-        if(idx == n) return;
+        if(j == -1) return;
         
-        for(int i = idx; i < n; i++){
-            ans[i] = 0;
-        }
-        
-        for(int i = 0; i < ans.length; i++){
-            arr[i] = ans[i];
+        for(int i = j+1; i < n; i++){
+            if(arr[i] != 0){
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+                j++;
+            }
+            else continue;
         }
     }
 }
