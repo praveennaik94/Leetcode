@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0189-rotate-array](https://github.com/praveennaik94/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/praveennaik94/Leetcode/tree/master/0283-move-zeroes) |
+| [0875-koko-eating-bananas](https://github.com/praveennaik94/Leetcode/tree/master/0875-koko-eating-bananas) |
 ## Math
 |  |
 | ------- |
@@ -15,4 +16,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0189-rotate-array](https://github.com/praveennaik94/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/praveennaik94/Leetcode/tree/master/0283-move-zeroes) |
+## Binary Search
+|  |
+| ------- |
+| [0875-koko-eating-bananas](https://github.com/praveennaik94/Leetcode/tree/master/0875-koko-eating-bananas) |
 <!---LeetCode Topics End-->
