@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/praveennaik94/Leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/praveennaik94/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0189-rotate-array](https://github.com/praveennaik94/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/praveennaik94/Leetcode/tree/master/0283-move-zeroes) |
@@ -44,4 +45,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/praveennaik94/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/praveennaik94/Leetcode/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
