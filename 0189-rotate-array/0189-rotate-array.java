@@ -3,23 +3,21 @@ class Solution {
 
         k = k % arr.length;
 
-        if(arr.length < k) return;
-
-        reverse(arr, 0 , arr.length-1);
-        reverse(arr, 0, k-1);
-        reverse(arr, k, arr.length-1);
+        swap(arr, 0, arr.length-1);
+        swap(arr, 0, k-1);
+        swap(arr, k, arr.length-1);
         
     }
 
-    public static void reverse(int arr[], int st, int end){
-        if(st == end) return;
+    public static void swap(int arr[], int a, int b){
+        if(a == b) return;
 
-        while(st < end){
-            int temp = arr[st];
-            arr[st] = arr[end];
-            arr[end] = temp;
-            st++;
-            end--;
+        while(a <= b){
+            int temp = arr[a];
+            arr[a] = arr[b];
+            arr[b] = temp;
+            a++;
+            b--;
         }
     }
 }
