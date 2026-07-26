@@ -1,16 +1,35 @@
 class Solution {
     public String reverseWords(String s) {
         s = s.trim();
-        String[] words = s.split("\\s+");
+    StringBuilder ans = new StringBuilder();
 
-        StringBuilder ans = new StringBuilder();
+    int i = s.length() - 1;
 
-        for (int i = words.length - 1; i >= 0; i--) {
-            ans.append(words[i]);
-            if (i != 0)
-                ans.append(" ");
-        }
+    while (i >= 0) {
 
-        return ans.toString();
+        // Skip spaces
+        while (i >= 0 && s.charAt(i) == ' ')
+            i--;
+
+        if (i < 0)
+            break;
+
+        int j = i;
+
+        // Find beginning of current word
+        while (j >= 0 && s.charAt(j) != ' ')
+            j--;
+
+        // Append the word
+        ans.append(s.substring(j + 1, i + 1));
+
+        // Add space if more words exist
+        if (j > 0)
+            ans.append(" ");
+
+        i = j - 1;
+    }
+
+    return ans.toString();
     }
 }
