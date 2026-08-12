@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/praveennaik94/Leetcode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/praveennaik94/Leetcode/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/praveennaik94/Leetcode/tree/master/0189-rotate-array) |
 ## Two Pointers
@@ -119,9 +120,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/praveennaik94/Leetcode/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/praveennaik94/Leetcode/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/praveennaik94/Leetcode/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/praveennaik94/Leetcode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
