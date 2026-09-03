@@ -1,15 +1,17 @@
 class Solution {
     public int[] replaceElements(int[] nums) {
         int[] ans = new int[nums.length];
-        for (int i = 0; i < nums.length; i++) {
-            int max = -1;
-            for (int j = i + 1; j < nums.length; j++) {
-                max = Math.max(max, nums[j]);
+        int max = -1;
+        int n = nums.length;
+
+        for(int i = n-1; i >= 0; i--){
+            if(nums[i] > max){
+                ans[i] = max;
+                max = nums[i];
             }
-            ans[i] = max;
+            else ans[i] = max;
         }
 
-        // Return the leaders 
         return ans;
     }
 }
